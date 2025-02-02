@@ -1,0 +1,3 @@
+This repository demonstrates a subtle and uncommon bug in HTML where a div element disappears after a button click and is not properly managed, leading to intermittent display errors. The bug is difficult to reproduce consistently because the error only appears under specific conditions.
+
+The `bug.html` file contains the problematic code.  The `bugSolution.html` provides a corrected version. This is a good example of a bug that highlights the importance of proper DOM manipulation and resource cleanup.
