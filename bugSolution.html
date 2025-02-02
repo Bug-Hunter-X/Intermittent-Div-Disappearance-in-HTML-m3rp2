@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text is initially visible.
+  </div>
+  <button onclick="myFunction()">Click Me</button>
+
+  <script>
+    let div = document.getElementById("myDiv");
+    function myFunction() {
+      div.style.display = "none";
+      setTimeout(function(){ 
+        div.style.display = "block";
+      }, 2000); //Re-display after 2 seconds for demonstration
+    }
+  </script>
+</body>
+</html>
